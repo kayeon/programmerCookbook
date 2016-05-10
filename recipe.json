@@ -1,0 +1,17 @@
+{
+  "recipes": [
+    {
+      "name": "Josh's amazing spaghetti dish",
+      "ingredients": [
+        {
+          "name": "pasta noodles",
+          "quantity": "1 box"
+        },
+        {
+          "name": "salt",
+          "quantity": "1 pinch"
+        }
+      ]
+    }
+  ]
+}
