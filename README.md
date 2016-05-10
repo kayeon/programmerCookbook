@@ -1,4 +1,4 @@
 # programmerCookbook
 Cookbook for your Programmer 
 
-Run with `node script.js`
+Open index.html to run!
