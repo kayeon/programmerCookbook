@@ -1,7 +1,7 @@
 {
   "recipes": [
     {
-      "name": "Josh's amazing spaghetti dish",
+      "name": "Josh's Amazing Spaghetti Recipe",
       "ingredients": [
         {
           "name": "pasta noodles",
@@ -9,7 +9,11 @@
         },
         {
           "name": "salt",
-          "quantity": "1 pinch"
+          "quantity": "a pinch"
+        }
+      ],
+      "steps": [
+        {
         }
       ]
     }
