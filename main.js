@@ -34,10 +34,15 @@ loadJSON('recipe.json', function (data) {
 
   for (s in first_recipe.steps) {
     var current_step = first_recipe.steps[s];
-    if (typeof current_step.depends_on === "undefined") {
+    if (typeof current_step.depends_on === 'undefined') {
       var element = document.createElement('p');
       element.textContent = current_step.instructions;
       stepContainer.appendChild(element);
+      console.log(current_step);
+    } else {
+      var e = document.createElement('p');
+      e.textContent = current_step.instructions;
+      stepContainer.appendChild(e);
     }
   }
 
