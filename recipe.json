@@ -12,10 +12,24 @@
           "quantity": "a pinch"
         }
       ],
-      "steps": [
-        {
+      "steps": {
+        "boil_water": {
+          "instructions": "Bring 3 cups of water to a boil on high heat"
+        },
+        "put_in_pasta": {
+          "instructions": "Put the pasta in the water",
+          "depends_on": "boil_water"
+        },
+        "make_sauce_1": {
+          "instructions": "Put the create in a saucepan, cook on medium heat for 5 minutes, stirring occasionally",
+          "time": "5 minutes"
+        },
+        "make_sauce_2": {
+          "instructions": "Add pepper to the sauce and continue to cook for 5 more minutes",
+          "time": "5 minutes",
+          "depends_on": "make_sauce_1"
         }
-      ]
+      }
     }
   ]
 }
