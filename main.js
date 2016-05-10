@@ -40,7 +40,7 @@ loadJSON('recipe.json', function (data) {
       stepContainer.appendChild(element);
       console.log(current_step);
     } else {
-      var e = document.createElement('p');
+      var e = document.createElement('li');
       e.textContent = current_step.instructions;
       stepContainer.appendChild(e);
     }
