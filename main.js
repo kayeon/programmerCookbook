@@ -11,9 +11,11 @@ loadJSON('recipe.json', function (data) {
 });
 
 function print_recipe(recipe) {
+
   // Fill in the description
 
-  var description = document.getElementById('recipe-description');
+  //var description = document.getElementById('recipe-description');
+  var description = // TODO: create div with class 'recipe-description'
 
   var recipeName = document.createElement('p');
   recipeName.textContent = 'Listing ingredients for ' + recipe.name;
@@ -25,7 +27,8 @@ function print_recipe(recipe) {
 
   // List out the ingredients
 
-  var ingredientsContainer = document.getElementById('ingredients');
+  //var ingredientsContainer = document.getElementById('ingredients');
+  var ingredientsContainer = // TODO: create div with class 'ingredients'
 
   recipe.ingredients.forEach(function(ingredient, index) {
     var element = document.createElement('p');
@@ -35,7 +38,8 @@ function print_recipe(recipe) {
 
   // List out the current steps
 
-  var stepContainer = document.getElementById('steps');
+  //var stepContainer = document.getElementById('steps');
+  var stepContainer = // TODO: create div with class 'steps'
 
   for (s in recipe.steps) {
     var current_step = recipe.steps[s];
@@ -50,4 +54,7 @@ function print_recipe(recipe) {
       stepContainer.appendChild(e);
     }
   }
+
+  // TODO: get body element
+  // TODO: put all the divs into the body
 }
