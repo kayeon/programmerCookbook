@@ -31,6 +31,37 @@
           "depends_on": "make_sauce_1"
         }
       }
+    },
+    {
+      "name": "Katie's Garlic Ginger Lemon Honey Tea",
+      "ingredients": [
+        {
+          "name": "garlic",
+          "quantity": "2 cloves"
+        },
+        {
+          "name": "ginger",
+          "quantity": "1 inch"
+        },
+        {
+          "name": "lemon",
+          "quantity": "1 lemon"
+        },
+        {
+          "name": "honey",
+          "quantity": "2 Tbsp"
+        }
+      ],
+      "steps": {
+        "slice_ingredients": {
+          "instructions": "Bring 3 cups of water to a boil on high heat"
+        },
+        "boil_water": {
+          "instructions": "Put the ingredients in the water and stir. Turn off heat",
+          "time": "30 mins",
+          "depends_on": "slice_ingredients"
+        }
+      }
     }
   ]
 }

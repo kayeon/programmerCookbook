@@ -1,4 +1,4 @@
 # programmerCookbook
-Cookbook for your Programmer 
+Cookbook for your friendly Programmer
 
 Open index.html to run!
