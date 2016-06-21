@@ -8,17 +8,17 @@ div {
   padding: 1rem;
 }
 
-#recipe-description {
+.recipe-description {
   border: 5px solid red;
   background-color: salmon;
 }
 
-#ingredients {
+.ingredients {
   border: 5px solid green;
   background-color: lightgreen;
 }
 
-#steps {
+.steps {
   border: 5px solid blue;
   background-color: lightblue;
 }
